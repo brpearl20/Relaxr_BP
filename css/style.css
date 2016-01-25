@@ -1,8 +1,160 @@
-/*
-Project Name: Relaxr Landing Page
-Author: Your Name
-Front End Developer @GA in NYC
-*/
+
+body {
+	margin: 0px;
+}
+.header{
+	width: 1200px;
+	height: 500px;
+	background-image: url("images/header_bg.jpg");
+	margin: 0 0 0 0;
+}
+.header h1{
+	color: white;
+	font-weight: 800;
+	font-size: 24px;
+	padding-left: 50px;
+	padding-top: 30px;
+	font-family: 'Open Sans';
+}
+.header p{
+	color: white;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+	letter-spacing: 2px;
+}
+
+.header button{
+	background-color: #f9e42e; /* yellow*/
+    border-radius: 5px;
+    color: #033048;
+    font-weight: 800;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 40%;
+    width: 250px;
+    font-family: 'Open Sans';
+}
+
+.benefits { 
+	background-color: #f0f0f0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 1200px;
+}
+
+.benefits h2{
+	color: #033048;
+	font-family: 'Open Sans';
+	font-size: 20px; 
+	font-weight: 600;
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-left: 100px;
+}
+.benefits p{
+	color: #121212;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: 100px;
+}
+.benefits ul{
+	color: #121212;
+	font-family: 'Open Sans';
+	font-size: 13px; 
+	font-weight: 300;
+	margin-left: 150px;
+	padding-bottom: 30px;
+}
+.blue-box{
+	width: 1200px;
+	height: 394px;
+	background-image: url("images/testimonial_bg.jpg");
+	padding-top: 40px
+}
+.blue-box p{
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 18px; 
+	font-style: italic;
+	text-align: center;
+	padding-top: 90px;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+	
+}
+.blue-box h4{
+	color:white;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 0px;	
+}
+
+.yellow-box {
+	background-color: #f9e42e;
+	width: 1200px;
+}
+
+.yellow-box button{
+	background-color: #033048; /* dark blue*/
+    border-radius: 12px 5px;
+    color: white;
+    font-weight: 800;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 43%;
+    margin-bottom: 25px;
+    width: 250px;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+}
+
+.footer {
+	background-color: #121212;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 1200px;
+}
+.footer h5{
+	color: #f9e42e;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	margin-left: 50%;
+	font-size: 24px;
+}
+.footer p {
+	font-family: 'Open Sans';
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+	text-align: bottom;
+	margin-left: 48%;
+	letter-spacing: 1px;
+	padding-top: 80px;
+
+}
+.social{ 
+float: left;
+margin-left: 47%;
+}
+
+.footer img {
+	margin-left: 20px;
+}
 
 /* Box Model Hack */
 * {
